@@ -1,5 +1,5 @@
 import Data.List
-
+import System.IO
 
 
 test a=
@@ -17,3 +17,7 @@ myGetChar x ((a,b):ls)
 
 translate xs = map translateChar xs
                where translateChar x = myGetChar x alpha
+
+--main=do
+--  inh=
+--openFile "input.txt" ReadMode >>= ( \h -> hGetContents h >>= putStrLn >> hClose h)
