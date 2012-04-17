@@ -30,3 +30,7 @@ titi=
   let b=translate a
   putStrLn b
   hClose file
+
+--main=do
+--  inh=
+--openFile "input.txt" ReadMode >>= ( \h -> hGetContents h >>= putStrLn >> hClose h)
